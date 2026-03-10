@@ -1,4 +1,4 @@
-# 📄 Resume NLP Analyzer
+# 📄 ResumeIQ
 
 A web-based NLP tool that analyzes resume text for readability, action verb strength, keyword frequency, and named entities.
 
