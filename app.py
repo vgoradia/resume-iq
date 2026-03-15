@@ -246,7 +246,7 @@ def generate_pdf(report: dict, score: int) -> bytes:
 
     return bytes(pdf.output())
     
-st.set_page_config(page_title="Resume NLP Analyzer", page_icon="📄", layout="wide")
+st.set_page_config(page_title="LexaForge", page_icon="📄", layout="wide")
 
 st.markdown("""
     <style>
@@ -270,7 +270,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("📄 Resume NLP Analyzer")
+st.title("📄 LexaForge")
 st.write("Paste your resume below and get quick NLP-based insights + readability + action-verb strength.")
 tab1, tab2 = st.tabs(["Single Resume", "Compare Resumes"])
 
